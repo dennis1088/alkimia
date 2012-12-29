@@ -32,10 +32,20 @@
 |
 */
 
-Route::get('/', function()
+Route::get('/', array('as' => 'home' , function()
 {
 	return View::make('home.index');
-});
+}));
+
+Route::get('about', array('as' => 'about' , function()
+{
+	return View::make('home.about');
+}));
+
+Route::get('contact', array('as' => 'contact' , function()
+{
+	return View::make('home.contact');
+}));
 
 /*
 |--------------------------------------------------------------------------

@@ -1,0 +1,78 @@
+/* Navigation
+-------------------------------------------------- */
+
+.navbar .brand {
+	padding:10px 20px 10px 35px;
+	color:white;
+}
+
+.navbar .logo {
+	float:left;
+	height:40px;
+}
+
+.marketing h2 {
+	font-size:30px;
+}
+
+/* Twitter Feed
+------------------------- */
+
+.twitter-feed i {
+	font-size:40px;
+}
+
+#twitter-icon-wrapper {
+	background-color:#56a0d3;
+	width:50px;
+	height:37px;
+	border-radius:25px;
+	color:white;
+	padding-top:13px;
+	margin: 30px auto;
+}
+
+#twitter_update_list li {
+	list-style:none;
+	font-size:20px;
+	font-weight:300;
+	line-height:25px;
+	color:#999;
+	padding:0 50px;
+}
+
+#twitter_update_list li a {
+	
+}
+
+.footer {
+	text-align: left;
+	color:#777;
+}
+
+/* Social Links
+------------------------- */
+
+footer .social-links {
+	font-size: 24px;
+	float:right;
+}
+footer .social-links ul {
+	margin:0 0 15px;
+}
+
+footer .social-links li {
+	display:inline;
+}
+
+footer .social-links a:hover {
+	text-decoration:none;
+}
+
+footer .social-links a:hover .icon-google-plus {
+	color:red;
+}
+
+footer .social-links a:hover .icon-pinterest {
+	color:red;
+}

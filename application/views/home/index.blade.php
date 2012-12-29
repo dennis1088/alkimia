@@ -1,57 +1,66 @@
-<!doctype html>
-<html lang="en">
-<head>
-	<meta charset="utf-8">
-	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-	<title>Laravel: A Framework For Web Artisans</title>
-	<meta name="viewport" content="width=device-width">
-	{{ HTML::style('laravel/css/style.css') }}
-</head>
-<body>
-	<div class="wrapper">
-		<header>
-			<h1>Laravel</h1>
-			<h2>A Framework For Web Artisans</h2>
+@layout('layout.master')
 
-			<p class="intro-text" style="margin-top: 45px;">
-			</p>
-		</header>
-		<div role="main" class="main">
-			<div class="home">
-				<h2>Learn the terrain.</h3>
+@section('content')
 
-				<p>
-					You've landed yourself on our default home page. The route that
-					is generating this page lives at:
-				</p>
+<div class="jumbotron masthead">
+  <div class="container">
+    <h1>Alkimia Chapter</h1>
+    <p>We are not just a fraternity, we are a movement.</p>
+	<p><a href="{{ URL::to_route('about') }}" class="btn btn-danger btn-large" >Find out More</a></p>
+  </div>
+</div>
 
-				<pre>{{ path('app') }}routes.php</pre>
+<div class="container">
 
-				<p>And the view sitting before you can be found at:</p>
+  <div class="marketing">
 
-				<pre>{{ path('app') }}views/home/index.php</pre>
+    <h1>Upcoming Events.</h1>
+    <p class="marketing-byline">Find out more information and come out to our events.</p>
 
-				<h2>Grow in knowledge.</h2>
+    <div class="row-fluid">
+    	<div class="span3">
+    		<a href="#" class="thumbnail"><img src="img/thumbnail.jpg" alt=""></a>
+    		<div class="event-info">
+    			<a href="#"><h2>Smooth Inception 3</h2></a>
+    			<time class="clearfix" datetime="">October 06, 10:00PM</time>
+    		</div>
+    	</div>
+    	<div class="span3">
+    		<a href="#" class="thumbnail"><img src="img/thumbnail.jpg" alt=""></a>
+    		<div class="event-info">
+    			<a href="#"><h2>Smooth Inception 3</h2></a>
+    			<time class="clearfix" datetime="">October 06, 10:00PM</time>
+    		</div>
+    	</div>
+    	<div class="span3">
+    		<a href="#" class="thumbnail"><img src="img/thumbnail.jpg" alt=""></a>
+    		<div class="event-info">
+    			<a href="#"><h2>Smooth Inception 3</h2></a>
+    			<time class="clearfix" datetime="">October 06, 10:00PM</time>
+    		</div>
+    	</div>
+    	<div class="span3">
+    		<a href="#" class="thumbnail"><img src="img/thumbnail.jpg" alt=""></a>
+    		<div class="event-info">
+    			<a href="#"><h2>Smooth Inception 3</h2></a>
+    			<time class="clearfix" datetime="">October 06, 10:00PM</time>
+    		</div>
+    	</div>
+    </div>
+    <hr>
 
-				<p>
-					Leaning to use Laravel is amazingly simple thanks to
-					its {{ HTML::link('docs', 'wonderful documentation') }}.
-				</p>
+    <!-- Twitter
+    ================================================== -->
+    <div class="twitter-feed">
+    	<div id="twitter-icon-wrapper">
+    		<i class="icon-twitter"></i>
+    	</div>
+    	<div id="twitter_update_list"></div>
+    </div>
+    <hr>
 
-				<h2>Create something beautiful.</h2>
+  </div>
 
-				<p>
-					Now that you're up and running, it's time to start creating!
-					Here are some links to help you get started:
-				</p>
+</div>
 
-				<ul class="out-links">
-					<li><a href="http://laravel.com">Official Website</a></li>
-					<li><a href="http://forums.laravel.com">Laravel Forums</a></li>
-					<li><a href="http://github.com/laravel/laravel">GitHub Repository</a></li>
-				</ul>
-			</div>
-		</div>
-	</div>
-</body>
-</html>
+@endsection
