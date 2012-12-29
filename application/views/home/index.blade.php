@@ -1,6 +1,6 @@
 @layout('layout.master')
 
-@section('content')
+@section('content') 
 
 <div class="jumbotron masthead">
   <div class="container">
