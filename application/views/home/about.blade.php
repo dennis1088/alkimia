@@ -40,7 +40,9 @@
 			<!-- Goals
 			================================================== -->
 			<section id="goals">
-				<h1>Goals</h1>
+				<div class="page-header">
+					<h1>Goals</h1>
+				</div>
 				<ol>
 					<li>Academic Excellence</li>
 					<li>Cultural Awareness</li>
@@ -52,21 +54,27 @@
 			<!-- Mission
 			================================================== -->
 			<section id="mission">
-				<h1>Mission</h1>
+				<div class="page-header">
+					<h1>Mission</h1>
+				</div>
 				<p>We, the brothers of Lambda Sigma Upsilon Latino Fraternity, Inc., strongly believe that many individual and collective successes can be achieved through the efforts of a culturally diverse brotherhood of college and university men who, through close association with each other, maintain honesty, commitment, respect, and trust. The maintainance of these qualities is nurtured in large part through the diversity of culture and through self-awareness and self-respect. Among the results of actions taken in these states of being are the promotion of friendship and Brotherhood, the development of individual character, the advancement of justice and opportunity, and the acquisition of soundness and excellence in education.</p>
 			</section>
 
 			<!-- Upsilon Family
 			================================================== -->
 			<section id="upsilon-family">
-				<h1>Upsilon Family</h1>
+				<div class="page-header">
+					<h1>Upsilon Family</h1>
+				</div>
 				<p>By definition, a family is : descendants of a common ancestor. The creation of the Upsilon Family brought fourth a lineage of excellence and the beginning of a millenium of cultural homage. Born from a common seed and developed into a divine entity, our family is a special place where we share lifeâ€™s experience using both the positive and negative as tools of enrichment. Together we will pave the way for men and women for generations to come. From our ancestors we obtained the most sacred part of us. Bound by our HISTORY and TRADITION we will forever remain THE UPSILON FAMILY.</p>
 			</section>
 
 			<!-- History
 			================================================== -->
 			<section id="history">
-				<h1>History</h1>
+				<div class="page-header">
+					<h1>History</h1>
+				</div>
 				<p>The primary roots of Lambda Sigma Upsilon began in 1978. During that time, Rutgers University was a hotbed of political and academic controversy. Minority students, in particular Latinos, felt that they were not getting the attention they so desperately needed to succeed in their academic endeavors. This negligence was most prevalent on the Livingston College Campus of Rutgers University in New Brunswick, NJ. During that time groups of students and protestors would conduct campus center sit-ins and take over university facilities such as the Livingston Library to make the university administration aware of their negligence. It is during these events where our founders met.</p> 
 				<p>In the spring of 1979, a group of students of Latino descent began talking about creating an organization that would represent and meet the needs of the Latino student population on campus, help students achieve their goals, and provide a sense of family to those away from home. They would meet regularly at the Livingston Student Center, where more gentlemen joined in on the discussions. Soon this small group of men reached 20 members. Some of these men recognized each other from the protests and knew that they had something in common and that united, as a group, would be able to best suit the needs of their fellow students. After speaking for a number of weeks, they suggested that the group form their own brotherhood, a Latino Social Fellowship. These men decided that a Social Fellowship would best provide a support group to other students and also provide a family away from their own. The excitement of these gentlemen grew daily, and they would conduct regular meetings to formalize the Fellowship. At the Final meeting, in Tillett Hall at Rutgers University, Livingston Campus on April 5th, 1979, Lambda Sigma Upsilon Latino Social Fellowship, Inc. was established. The official motto of the fellowship was &#8220;Latinos Siempre Unidos&#8221; (Latinos Always United), thus the acronym &#8220;LSU&#8221;.</p>
 				<h2>Founders</h2> 
