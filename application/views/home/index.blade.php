@@ -19,31 +19,31 @@
 
     <div class="row-fluid">
     	<div class="span3">
-    		<a href="#" class="thumbnail"><img src="img/thumbnail.jpg" alt=""></a>
+    		<a href="http://www.facebook.com/events/199651053503128/" class="thumbnail"><img src="img/event1.jpg" alt=""></a>
     		<div class="event-info">
-    			<a href="#"><h2>Smooth Inception 3</h2></a>
-    			<time class="clearfix" datetime="">October 06, 10:00PM</time>
+    			<a href="http://www.facebook.com/events/199651053503128/"><h2>World AIDS Day Banquet</h2></a>
+    			<time class="clearfix" datetime="">December 01, 6:00PM</time>
     		</div>
     	</div>
     	<div class="span3">
-    		<a href="#" class="thumbnail"><img src="img/thumbnail.jpg" alt=""></a>
+    		<a href="http://www.facebook.com/events/459576450761038/" class="thumbnail"><img src="img/event2.jpg" alt=""></a>
     		<div class="event-info">
-    			<a href="#"><h2>Smooth Inception 3</h2></a>
-    			<time class="clearfix" datetime="">October 06, 10:00PM</time>
+    			<a href="http://www.facebook.com/events/459576450761038/"><h2>Noche Buena</h2></a>
+    			<time class="clearfix" datetime="">December 15, 5:00PM</time>
     		</div>
     	</div>
     	<div class="span3">
-    		<a href="#" class="thumbnail"><img src="img/thumbnail.jpg" alt=""></a>
+    		<a href="http://www.facebook.com/events/371701576246705/" class="thumbnail"><img src="img/event3.jpg" alt=""></a>
     		<div class="event-info">
-    			<a href="#"><h2>Smooth Inception 3</h2></a>
-    			<time class="clearfix" datetime="">October 06, 10:00PM</time>
+    			<a href="http://www.facebook.com/events/371701576246705/"><h2>Dominoes Tournament</h2></a>
+    			<time class="clearfix" datetime="">January 24, 8:00PM</time>
     		</div>
     	</div>
     	<div class="span3">
-    		<a href="#" class="thumbnail"><img src="img/thumbnail.jpg" alt=""></a>
+    		<a href="http://www.facebook.com/events/198333466958576/" class="thumbnail"><img src="img/event4.jpg" alt=""></a>
     		<div class="event-info">
-    			<a href="#"><h2>Smooth Inception 3</h2></a>
-    			<time class="clearfix" datetime="">October 06, 10:00PM</time>
+    			<a href="http://www.facebook.com/events/198333466958576/"><h2>Date Auction</h2></a>
+    			<time class="clearfix" datetime="">January 26, 5:00PM</time>
     		</div>
     	</div>
     </div>

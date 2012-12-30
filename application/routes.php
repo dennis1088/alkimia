@@ -67,7 +67,7 @@ Route::post('contact', array('as' => 'contact', function()
 	}
 
 	// if not send email
-	$to = "dennis1088@gmail.com";
+	$to = "lsualkimia@gmail.com";
 	$subject = "Message from Contact Form";
 
 	$headers = "From: lsualkimia.website@gmail.com\r\n";
