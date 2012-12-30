@@ -70,17 +70,19 @@ Route::post('contact', array('as' => 'contact', function()
 	$to = "dennis1088@gmail.com";
 	$subject = "Message from Contact Form";
 
-	$headers = "From: " . $input['email'] . "\r\n";
-	$headers .= "Reply-To: ". $input['email'] . "\r\n";
+	$headers = "From: lsualkimia.website@gmail.com\r\n";
+	$headers .= "Reply-To: lsualkimia.website@gmail.com\r\n";
 	$headers .= "MIME-Version: 1.0\r\n";
 	$headers .= "Content-Type: text/html; charset=ISO-8859-1\r\n";
+
+	$message = $input['name']."\r\n".$input['email']."\r\n".$input['message'];
 	
-	if (mail($to, $subject, $input['message'], $headers)) {
+	if (mail($to, $subject, $message, $headers)) {
 		//successful
-		echo "your email was sent";
+		return Redirect::to_route('contact');
 	} else {
 		//error in sending message
-		echo "it wasnt";
+		return Redirect::to_route('contact');
 	}
 }));
 
