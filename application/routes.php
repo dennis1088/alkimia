@@ -79,7 +79,7 @@ Route::post('contact', array('as' => 'contact', function()
 	
 	if (mail($to, $subject, $message, $headers)) {
 		//successful
-		return Redirect::to_route('contact');
+		return Redirect::to_route('contact')->with('success', 'Your message was sent successfully.');
 	} else {
 		//error in sending message
 		return Redirect::to_route('contact');
