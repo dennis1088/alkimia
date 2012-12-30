@@ -47,6 +47,43 @@ Route::get('contact', array('as' => 'contact' , function()
 	return View::make('home.contact');
 }));
 
+Route::post('contact', array('as' => 'contact', function()
+{
+	// get input
+	$input = Input::all();
+	// create rules for the inputs
+	$rules = array(
+		'name' => 'required',
+		'email' => 'required|email',
+		'message' => 'required'
+	);
+
+	// create validator with input and rules
+	$validation = Validator::make($input, $rules);
+
+	// check if validation fails if so redirect with errors
+	if($validation->fails()) {
+		return Redirect::to_route('contact')->with_errors($validation);
+	}
+
+	// if not send email
+	$to = "dennis1088@gmail.com";
+	$subject = "Message from Contact Form";
+
+	$headers = "From: " . $input['email'] . "\r\n";
+	$headers .= "Reply-To: ". $input['email'] . "\r\n";
+	$headers .= "MIME-Version: 1.0\r\n";
+	$headers .= "Content-Type: text/html; charset=ISO-8859-1\r\n";
+	
+	if (mail($to, $subject, $input['message'], $headers)) {
+		//successful
+		echo "your email was sent";
+	} else {
+		//error in sending message
+		echo "it wasnt";
+	}
+}));
+
 /*
 |--------------------------------------------------------------------------
 | Application 404 & 500 Error Handlers
