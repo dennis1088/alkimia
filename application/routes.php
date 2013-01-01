@@ -86,6 +86,46 @@ Route::post('contact', array('as' => 'contact', function()
 	}
 }));
 
+Route::get('login', array('as' => 'login', function() {
+	return View::make('sessions.login');	
+}));
+
+Route::post('login', array('as' => 'login', function() {
+	$input = Input::all();
+	if(array_key_exists('remember', $input)) {
+		$input['remember'] = true;
+	} else {
+		$input['remember'] = false;
+	}
+
+	if (Auth::attempt($input))
+	{
+		return Redirect::to_route('home');
+	} else {
+		return Redirect::to_route('login');
+	}
+}));
+
+Route::get('logout', function() { 
+	Auth::logout();
+	return Redirect::to('/');
+});
+
+Route::filter('auth', function()
+{
+    if (Auth::guest()) return Redirect::to_route('login');
+});
+
+Route::filter('pattern: admin*', 'auth');
+
+Route::get('admin', function() {
+	echo "this is the admin page";
+});
+
+Route::get('admin/events', function() {
+	echo "this is the admin page";
+});
+
 /*
 |--------------------------------------------------------------------------
 | Application 404 & 500 Error Handlers

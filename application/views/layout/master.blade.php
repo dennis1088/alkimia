@@ -82,6 +82,9 @@
       Rochester, NY 14623<br>
       <abbr title="Phone">P:</abbr> (123) 456-7890
     </address>
+    @if (Auth::check())
+      <p>User: {{ Auth::user()->email }}
+    @endif
   </div>
 </footer>
 

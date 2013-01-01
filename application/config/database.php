@@ -70,6 +70,7 @@ return array(
 		'mysql' => array(
 			'driver'   => 'mysql',
 			'host'     => 'localhost',
+			'unix_socket'   => '/Applications/MAMP/tmp/mysql/mysql.sock',
 			'database' => 'alkimia',
 			'username' => 'root',
 			'password' => 'root',
