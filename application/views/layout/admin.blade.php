@@ -40,25 +40,28 @@
             <span class="icon-bar"></span>
           </button>
           <a class="logo" href="{{ URL::to_route('home') }}">{{ HTML::image('img/lsu-crest.png', 'LSU') }}</a>
-          <a class="brand" href="{{ URL::to_route('home') }}">Alkimia Chapter</a>
-          <div class="nav-collapse collapse">
-            <ul class="nav">
-              <li class="@if (Request::route()->is('home'))active@endif">
-                <a href="{{ URL::to_route('home') }}">Home</a>
-              </li>
-              <li class="@if (Request::route()->is('about'))active@endif">
-                <a href="{{ URL::to_route('about') }}">About</a>
-              </li>
-              <li class="@if (Request::route()->is('contact'))active@endif">
-                <a href="{{ URL::to_route('contact') }}">Contact</a>
-              </li>
-            </ul>
-          </div>
+          <a class="brand" href="{{ URL::to_route('home') }}">Alkimia Admin Dashboard</a>
         </div>
       </div>
     </div>
 
-    @yield('content')
+    <div class="container">
+
+      <!-- Sub nav
+      ================================================== -->
+      <div class="row">
+        <div class="span3 bs-docs-sidebar">
+          <ul class="nav nav-list bs-docs-sidenav">
+            <li><a href="#"><i class="icon-dashboard"></i> Dashboard</a></li>
+            <li><a href="#"><i class="icon-group"></i> Users</a></li>
+            <li><a href="#"><i class="icon-calendar"></i> Events</a></li>
+          </ul>
+        </div>
+        <div class="span9">
+          @yield('content')
+        </div>
+      </div>
+    </div>
 
     <!-- Footer
     ================================================== -->

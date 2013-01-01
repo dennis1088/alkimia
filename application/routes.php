@@ -111,20 +111,10 @@ Route::get('logout', function() {
 	return Redirect::to('/');
 });
 
-Route::filter('auth', function()
-{
-    if (Auth::guest()) return Redirect::to_route('login');
-});
-
 Route::filter('pattern: admin*', 'auth');
 
-Route::get('admin', function() {
-	echo "this is the admin page";
-});
-
-Route::get('admin/events', function() {
-	echo "this is the admin page";
-});
+Route::controller('admin.users');
+Route::controller('admin');
 
 /*
 |--------------------------------------------------------------------------
