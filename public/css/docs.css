@@ -40,6 +40,7 @@ body > .navbar .brand:hover {
 
 .navbar .logo img {
   height:60px;
+  width:66px;
 }
 
 
@@ -896,6 +897,7 @@ form.bs-docs-example {
 
   .navbar .logo img {
     height:40px;
+    width:44px;
   }
 
   /* Adjust sidenav width */
@@ -918,6 +920,7 @@ form.bs-docs-example {
 
   .navbar .logo img {
     height:40px;
+    width:44px;
   }
 
   /* Widen masthead and social buttons to fill body padding */
@@ -979,6 +982,7 @@ form.bs-docs-example {
 
   .navbar .logo img {
     height:40px;
+    width:44px;
   }
 
   /* Change up some type stuff */

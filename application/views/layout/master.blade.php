@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
   <meta charset="utf-8">
-  <title>Alkimia Admin Dashboard</title>
+  <title>Alkimia Chapter</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="description" content="">
   <meta name="author" content="">
@@ -53,6 +53,7 @@
                 <a href="{{ URL::to_route('contact') }}">Contact</a>
               </li>
             </ul>
+            <a class="sub-brand pull-right" href="http://www.lsu79.org">Lambda Sigma Upsilon Latino Fraternity, Inc.</a>
           </div>
         </div>
       </div>
@@ -71,13 +72,12 @@
          <li><a href="#"><i class="icon-linkedin"></i></a></li>
          <li><a href="#"><i class="icon-google-plus"></i></a></li>
          <li><a href="http://www.facebook.com/alkimia.chapter" target="_blank"><i class="icon-facebook"></i></a></li>
-         <li><a href="#"><i class="icon-pinterest"></i></a></li>
        </ul>
      </div>
      <address>
       <strong>Alkimia Chapter</strong><br>
-      Lambda Sigma Upsilon Latino Fraternity, Inc. <br>
-      Rochester Institute of Technology <br>
+      <a href="http://www.lsu79.org">Lambda Sigma Upsilon Latino Fraternity, Inc.</a> <br>
+      <a href="http://www.rit.edu">Rochester Institute of Technology</a> <br>
       70 Lomb Memorial Drive<br>
       Rochester, NY 14623<br>
       <abbr title="Phone">P:</abbr> (123) 456-7890

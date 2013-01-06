@@ -6,6 +6,11 @@
 	color:white;
 }
 
+a.sub-brand.pull-right {
+	padding:10px 20px 10px 35px;
+	color:white;
+}
+
 .navbar .logo {
 	float:left;
 	height:40px;

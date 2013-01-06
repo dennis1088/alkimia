@@ -23,6 +23,7 @@
 				<li><a href="#mission"><i class="icon-chevron-right"></i> Mission</a></li>
 				<li><a href="#upsilon-family"><i class="icon-chevron-right"></i> Upsilon Family</a></li>
 				<li><a href="#history"><i class="icon-chevron-right"></i> History</a></li>
+				<li><a href="#alkimia"><i class="icon-chevron-right"></i> Alkimia Chapter</a></li>
 			</ul>
 		</div>
 		<div class="span9">
@@ -33,7 +34,7 @@
 				<div class="page-header">
 					<h1>Introduction</h1>
 				</div>
-				<p>20 Latino men founded Lambda Sigma Upsilon Latino Fraternity on April 5th, 1979.  As we approach our 30th year, Lambda Sigma Upsilon continues to make significant strides to better uplift young men of all cultures, the campus community, and the community-at-large.  Currently Lambda Sigma Upsilon is comprised of 46 chapters across the United States.  We are the fastest growing Latino Fraternity, recently opening 11 new chapters within the last two years.</p>
+				<p>Lambda Sigma Upsilon Latino Fraternity was founded on April 5th, 1979 by 20 latino men.  As we approach our 30th year, Lambda Sigma Upsilon continues to make significant strides to better uplift young men of all cultures, the campus community, and the community-at-large.  Currently Lambda Sigma Upsilon is comprised of 46 chapters across the United States.  We are the fastest growing Latino Fraternity, recently opening 11 new chapters within the last two years.</p>
 				<p>Our founders were men who believed that the minority population at colleges and universities were not getting the attention they so desperately needed to advance their academic successes.  With this notion, they created Lambda Sigma Upsilon to act as a support group for minorities, as well as provide a family away from home.  As proof to this, our founders developed 4 Goals that would embody the purpose of Lambda Sigma Upsilon.</p>
 			</section>
 
@@ -100,6 +101,13 @@
 					<li>Jose Sabater</li> 
 					<li>Raul Torres</li> 
 				</ul>
+			</section>
+
+			<section id="alkimia">
+				<div class="page-header">
+					<h1>Alkimia Chapter</h1>
+				</div>
+				<p>The Alkimia Chapter of Lambda Sigma Upsilon Latino Fraternity Inc. was established by four strong individuals on April 24th, 2010 at the Rochester Institute of Technology.  Our goal was and still remains to serve the Rochester community to the best of our ability, while maintaining a strong focus on academic excellence.</p>
 			</section>
 			
 		</div>
