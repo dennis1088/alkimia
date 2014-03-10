@@ -30,34 +30,24 @@
 
     <div class="row-fluid">
     	<div class="span3">
-    		<a target="_blank" href="http://www.facebook.com/events/199651053503128/" class="thumbnail"><img src="img/event1.jpg" alt=""></a>
+    		<a target="_blank" href="https://www.facebook.com/events/810333445649824/" class="thumbnail"><img src="img/StepAbove.jpg" alt=""></a>
     		<div class="event-info">
-    			<a target="_blank" href="http://www.facebook.com/events/199651053503128/"><h2>World AIDS Day Banquet</h2></a>
-    			<time class="clearfix" datetime="">December 01, 6:00PM</time>
+    			<a target="_blank" href="https://www.facebook.com/events/810333445649824/"><h2>Step Above</h2></a>
+    			<time class="clearfix" datetime="">April 14th 2014, 5:30PM</time>
     		</div>
     	</div>
+    	<!-- Informational placeholder
     	<div class="span3">
-    		<a target="_blank" href="http://www.facebook.com/events/459576450761038/" class="thumbnail"><img src="img/event2.jpg" alt=""></a>
+    		<a target="_blank" href="" class="thumbnail"><img src="" alt="" /></a>
     		<div class="event-info">
-    			<a target="_blank" href="http://www.facebook.com/events/459576450761038/"><h2>Noche Buena</h2></a>
-    			<time class="clearfix" datetime="">December 15, 5:00PM</time>
+    			<a target="_blank" href=""><h2>Rum & Salsa Informational</h2></a>
+    			<time class="clearfix" datetime="">May 18th 2014, 5:30pm</time>
     		</div>
     	</div>
-    	<div class="span3">
-    		<a target="_blank" href="http://www.facebook.com/events/371701576246705/" class="thumbnail"><img src="img/event3.jpg" alt=""></a>
-    		<div class="event-info">
-    			<a target="_blank" href="http://www.facebook.com/events/371701576246705/"><h2>Dominoes Tournament</h2></a>
-    			<time class="clearfix" datetime="">January 24, 8:00PM</time>
-    		</div>
-    	</div>
-    	<div class="span3">
-    		<a target="_blank" href="http://www.facebook.com/events/198333466958576/" class="thumbnail"><img src="img/event4.jpg" alt=""></a>
-    		<div class="event-info">
-    			<a target="_blank" href="http://www.facebook.com/events/198333466958576/"><h2>Date Auction</h2></a>
-    			<time class="clearfix" datetime="">January 26, 5:00PM</time>
-    		</div>
-    	</div>
+    	-->
     </div>
+    
+    
     <hr>
 
   </div>

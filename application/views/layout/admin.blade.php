@@ -83,7 +83,7 @@
       Rochester Institute of Technology <br>
       70 Lomb Memorial Drive<br>
       Rochester, NY 14623<br>
-      <abbr title="Phone">P:</abbr> (123) 456-7890
+      <a href="mailto:lsualkimia@gmail.com">lsualkimia@gmail.com</a>
     </address>
     @if (Auth::check())
       <p>User: {{ Auth::user()->email }}
